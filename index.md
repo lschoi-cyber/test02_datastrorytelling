@@ -94,3 +94,24 @@ Figma·Framer·Spline을 중심으로 **이해하기 쉬운 인터페이스와 �
 ## 기타
 - 디자인 어워드 준비(Good Design Award, iF 등)
 - 발표·자문 가능: AI-주도 UX워크플로, 다중에이전트 투명성, 프로토타이핑 운영
+
+
+<!-- 버튼 스타일(가볍고 깔끔) -->
+<style>
+  .btn {
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 10px;
+    background: #0ea5e9;
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 600;
+    border: 1px solid #0284c7;
+  }
+  .btn:hover { filter: brightness(0.96); }
+</style>
+
+<p>
+  <a class="btn" href="{{ '/data.html' | relative_url }}">Data storytelling data</a>
+</p>
+
